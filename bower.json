@@ -1,0 +1,25 @@
+{
+  "name": "pw",
+  "homepage": "https://github.com/SebastianIbanez/PW",
+  "description": "portal para consultar placas",
+  "main": "index.html",
+  "keywords": [
+    "placa",
+    "de",
+    "vehiculos"
+  ],
+  "authors": [
+    "Juan Sebastian Murcia Ibañes - sebas-ibanes@hotmail.com - Manuel Alejandro"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
