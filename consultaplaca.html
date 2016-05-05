@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <title>Consula Placa</title>
-    
 </head>
-<body bgcolor="EAE7E7">
-<h1>Busque el tipo de vehiculo por el cual usted esté interesado</h1> 
+<body>
+<div class="page-header"> 
+    <h1>Busque el tipo de vehiculo por el cual usted esté interesado</h1> </div>
+    <div align="right">
+    <button type="button" class="btn btn-default navbar-btn" >Registrarse</button>
+    <button type="button" class="btn btn-default navbar-btn" > <a href="login.html"><center> Ingresar </center></a> </button>
+    </div>
     <br>
     <p><font size=5>En este apartado encontraras toda la información relacionada a tu vehículo, solo digitan la placa que solicite.
     </font></p>
     <br>
     <br>
-    <table border=1 width=500 height=40 align=center>
-        <td width=200>
-            <a href="index.html"><center> Inicio </center></a>
-        </td>
-        <td width=300>
-            <a href="consultaplaca.html"><center> Consulta de placas </center></a>
-        </td>
-        <td width=200>
-            <a href="nosotros.html"><center> Nosotros </center></a>
-        </td>
-        <td width=300>
-            <a href="tablasvehiculos.html"><center> Tabla de cotizacion</center></a>
-        </td>
-    </table>
+    <div  class = "btn-grupo btn-group-lg"  role = "grupo"  aria-label = "..." align="center"> 
+     <botón  type = " botón "  class = " btn btn-default " align="center"><a href="index.html"><center> Inicio </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"><a href="consultaplaca.html"><center> Consulta de placas </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"> <a href="nosotros.html"><center> Nosotros </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"><a href="tablasvehiculos.html"><center> Tabla de cotizacion</center></a> </botón>
+    </ div>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <form name="login" action="http://www.tecnun.es/cgi-bin/ii/CGI0.exe" method="POST" target="resultado">
-    <table border="1">
+    <div align="left">
     <h2>Si conoce el número de la placa pulse en aceptar</h2>
-      <tr><td>
-        <table>
-          
-          <tr>
-          <tr >
-            <td colspan="2" align="center">
-                <a href="https://vehiculos.gobernaciondecaldas.gov.co/web/consulta/consulta.php">Aceptar
-                </a>
-          </tr>
-        </table>
-      </td></tr>
-    </table>
-    </form>
+    <div  class = "btn-grupo"  role = "grupo"  aria-label = "..." align="left"> 
+     <botón  type = " botón "  class = " btn btn-default " align="center"><a href="https://vehiculos.gobernaciondecaldas.gov.co/web/consulta/consulta.php">Aceptar</a>
+    </botón>
+    </div>
+    </div>
     <hr>
-    
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     
     
 

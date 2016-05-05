@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nosotros</title>
-    
+    <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <title>Nosotros</title>  
 </head>
-<body bgcolor="EAE7E7">
-<h1>Conoce sobre nosotros</h1> 
+<body>
+<div class="page-header"> 
+    <h1>Conoce sobre nosotros</h1>
+    </div> 
+    <div align="right">
+    <button type="button" class="btn btn-default navbar-btn" >Registrarse</button>
+    <button type="button" class="btn btn-default navbar-btn" > <a href="login.html"><center> Ingresar </center></a> </button>
+    </div>
     <br>
     <br>    
-    <table border=1 width=500 height=40 align=center>
-        <td width=200>
-            <a href="index.html"><center> Inicio </center></a>
-        </td>
-        <td width=300>
-            <a href="consultaplaca.html"><center> Consulta de placas </center></a>
-        </td>
-        <td width=200>
-            <a href="nosotros.html"><center> Nosotros </center></a>
-        </td>
-        <td width=300>
-            <a href="tablasvehiculos.html"><center> Tabla de cotizacion</center></a>
-        </td>
-    </table>
+    <div  class = "btn-grupo btn-group-lg"  role = "grupo"  aria-label = "..." align="center"> 
+     <botón  type = " botón "  class = " btn btn-default " align="center"><a href="index.html"><center> Inicio </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"><a href="consultaplaca.html"><center> Consulta de placas </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"> <a href="nosotros.html"><center> Nosotros </center></a> </botón>
+    <botón  type = " botón "  class = " btn btn-default " align="center"><a href="tablasvehiculos.html"><center> Tabla de cotizacion</center></a> </botón>
+    </ div>
     <br>
     <br>
     <br>
     
+    
     <h2>Misión</h2>
-    <p><font size=4>Nuestra mision es velar por la correcta  informacion a nuestros usuarios de todos los datos consigandos en transito manizales sobre sus vehiculos, estados actualizados, avaluos tramites, traspasos y demas gestiones necesarias para mantener uss vehiculos al dia en la normas de transito. </font></p>
+    <p><font size=4><div align="left">
+    Nuestra mision es velar por la correcta  informacion a nuestros usuarios de todos los datos consigandos en transito manizales sobre sus vehiculos, estados actualizados, avaluos tramites, traspasos y demas gestiones necesarias para mantener sus vehiculos al día en la normas de tránsito. </div></font></p>
     <hr>
     <br>
     
     <h2>Visión</h2>
-    <p><font size=4>Nuestra visión a corto plazo es expandirnos a todas las ciudades capitales del país, no solo Manizales  de esta  manera  estandaraizar todos los procesos a nivel del nacional, pretendemos ser un estandarte o referente nacional en todas las consultas de  vehiculos y en los tramites relacionados como traspasos y pago de impuestos.  </font></p>
+    <p><font size=4><div align="left">Nuestra visión a corto plazo es expandirnos a todas las ciudades capitales del país, no solo Manizales  de esta  manera  estandaraizar todos los procesos a nivel del nacional, pretendemos ser un estandarte o referente nacional en todas las consultas de  vehiculos y en los tramites relacionados como traspasos y pago de impuestos.  </div></font></p>
     <hr>
     <br>
     
     <h2>Políticas</h2>
-    <p><font size=4>Estamos regidos por todas las normas expedidas por el ministerio de transito y transporte, leyes vigentes desde el año 2005 vigilados por la superintencia de industria y comercio.  
-    </font></p>
+    <p><font size=4><div align="left">Estamos regidos por todas las normas expedidas por el ministerio de transito y transporte, leyes vigentes desde el año 2005 vigilados por la superintencia de industria y comercio.  
+    </div></font></p>
     <hr>
     <br>
     
     <h2>Contáctanos</h2>
-    <p><font size=4> Para cualquiere consulta en cuanto al servicio sumistrados de consultas de vehiculos por placas, reportar un mal funcionamiento de la pagina o alguna sugerencia personas, estamos atentos para atenderte en los siguientes correo o por medio del buzon de sugerencias.
+    <p><font size=4><div align="left"> Para cualquiere consulta en cuanto al servicio sumistrados de consultas de vehiculos por placas, reportar un mal funcionamiento de la pagina o alguna sugerencia personas, estamos atentos para atenderte en los siguientes correo o por medio del buzon de sugerencias.
     <br>
     <br>
     Via E-mail sebas.ibanes@gmail.com y alejo-o-zambrano@hotmail.com 
-    </font></p>
+    </div></font></p>
     <br>
     
-    
+    <div align="left">
     <h2>Buzón de sugerencias</h2>
     <form name="sugerencias" action="http://www.tecnun.es/cgi-bin/ii/CGI0.exe" method="POST" target="resultado">
       <p>Por favor, introduzca sus sugerencias:<br>
@@ -58,7 +58,7 @@
       <input type="hidden" name="identificador" value="Z87X09RF"><br>
       <INPUT type="submit" value="Enviar">   <input type="reset" value="Borrar">
       </p>
-    </form>
+        </form></div>
     <hr>
     
     <div id="pie" align=center>   <table border=0 width=500 height=40 align=center>
@@ -67,7 +67,8 @@
         </td>
         </table>
     </div> 
-        
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>   
         
 </body>
         
