@@ -9,13 +9,13 @@
 <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <title>Login</title>
 </head>
-<body >   
+<body  background="imagenes/fondo3.jpg">   
 <!-- Where all the magic happens -->
 <!-- LOGIN FORM -->
 
-
+<div class="container">
 <div class="text-center" style="padding:50px 0" >
-	<div class="logo"><h2>Ingresar</h2></div>
+    <div class="logo"><font color="white"><h2>Ingresar</h2></font></div>
 	<!-- Main Form -->
 	<div class="login-form-1">
 		<form id="login-form" class="text-left">
@@ -30,24 +30,31 @@
 						<label for="lg_password" class="sr-only">Contraseña</label>
 						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="Contraseña">
 					</div>
+                    <font color="white">
 					<div class="form-group login-group-checkbox">
 						<input type="checkbox" id="lg_remember" name="lg_remember" align="left">
 						<label for="lg_remember"><h4>Recordar</h4></label>
 					</div>
+                    </font>
 				</div>
-				<button type="submit" class="login-button">Continuar   <i class="fa fa-chevron-right"></i></button>
+				<button type="submit" class="login-button"> Continuar  </button>
+                 <button type="submit" class="login-button" align="right"> <a href="index.html"><center>Inicio </center> </a> </button>
 			</div>
             <br>
+            <font color="white">
             <div class="etc-login-form">
 				<p>¿No se encuentra registrado? <a href="#"><a href="registrarse.html"> Registrarse</a></a></p>
 			</div>
+            </font>
             <br>
+            <font color="white">
 			<div class="etc-login-form">
-				<p>¿Olvidó su contraseña? <a href="#"><a href="password.html"> Recuperar contraseña</a></a></p>
+                <p>¿Olvidó su contraseña?<a href="#"><a href="password.html"> Recuperar contraseña</a></a></p>
 			</div>
-		</form>
+            </font>
 	</div>
 	<!-- end:Main Form -->
+</div>
 </div>
 </body>
 
